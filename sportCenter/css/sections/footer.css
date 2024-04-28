@@ -1,0 +1,31 @@
+.footer {
+    background-color:#355592;
+    text-align: left;
+    color: #FBF8F1;
+    
+}
+
+.no-bullets {
+    list-style-type: none;
+  }
+
+.no-bullets li a{
+    text-decoration: none;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+
+  }
+
+  @media (max-width: 576px) {
+    .footer .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .footer .col-md-5 {
+      flex-basis: 48%;
+    }
+  }
+  

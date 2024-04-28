@@ -1,0 +1,21 @@
+
+.input-group {
+    display: flex;
+    align-items: center; 
+    gap: 4px;
+    margin-bottom: 20px;
+}
+#triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 100%;
+    left: 6%;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 18px solid orange; 
+}
+
+.triangle-index {
+    position: relative;
+}

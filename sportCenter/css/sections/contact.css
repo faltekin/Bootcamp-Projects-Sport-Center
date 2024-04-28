@@ -1,0 +1,33 @@
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#contact-form {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#contact-form .form-control {
+    background-color: #dff9fbb3;
+}
+
+#contact-form .btn-primary {
+    background-color: orange;
+    border-color: orange;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 576px) {
+    .contact-us-iframe {
+        height: 400px;
+    }
+    .review-role{
+        margin-left: 20px; 
+    }
+}
+

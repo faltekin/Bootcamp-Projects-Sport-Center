@@ -1,0 +1,286 @@
+#hero {
+    position: relative;
+    width: 100%;
+    height: 65%;
+}
+
+
+
+#hero h1 {
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+    color: white;
+
+}
+
+
+#hero h5 {
+
+    position: absolute;
+    left: 20%;
+    right: 16%;
+    bottom: 28%;
+    color: white;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-bottom: 22px; 
+}
+
+#hero .hero-bottom{
+    position: absolute;
+    left: 20%;
+    bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px; 
+    bottom: 30vh; 
+}
+
+#hero .hero-top .btn-primary{
+    position: absolute;
+    display: flex;
+    border-radius: 0px;
+}
+
+#hero-numbers {
+    position: relative;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding-right: 0%;
+    background-color: #F1F8FF;
+    border: 0px;
+    align-items: center;
+   
+}
+
+#hero-numbers .card{
+    position: relative;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.799);
+    border: 0px;
+    align-items: center;
+   
+}
+
+#hero img {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+ 
+}
+
+#hero .powerfull {
+    position: absolute;
+    bottom: 75%;
+    left: 20%;
+    
+
+}
+
+#hero-numbers .col-sm-3 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#hero-numbers .card {
+    width: 10rem;
+    background-color: #FFFFFF;
+}
+
+#hero-numbers .card-title {
+    text-align: center;
+    color: #32578C;
+}
+
+#hero-numbers .card-text {
+    text-align: center;
+}
+
+
+@media (max-width:576px) {
+   
+    #hero-numbers .card {
+    
+        margin-bottom: 10px; 
+        padding-top: 10px; 
+        width: 100%;
+    }
+
+    #hero .hero-bottom {
+        flex-direction: column;
+        bottom: 2vh; /* Alt boşluk ayarı */
+    }
+    .group-text, .practice-text, .trainer-text {
+        display: inline; 
+        margin-right: 10px; 
+        margin-top: -8px;
+    }
+
+    #hero {
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        background-color: black;
+    }
+    
+    #hero img {
+        position: relative;
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    #hero h5 {
+        bottom: 22%;  
+    }
+
+    #hero .powerfull {
+        bottom: 80%;
+    }
+    #hero h1 {
+        bottom: 45%;
+        font-size: 48px;
+        font-weight: 700;
+
+    }
+ 
+    #hero h1.hero-three {
+        margin-top: 8%;
+        padding-right: 2%;
+        margin-bottom: 20%;
+    }
+    
+    #hero h5.hero-text {
+        margin-bottom: 2%;
+    }
+      
+}
+
+@media (max-width: 576px) and (max-height: 668px) { 
+   
+    #hero-numbers .card {
+    
+        margin-bottom: 10px; 
+        padding-top: 10px; 
+        width: 100%;
+    }
+
+    #hero .hero-bottom {
+        flex-direction: column;
+        bottom: 2vh; /* Alt boşluk ayarı */
+    }
+    .group-text, .practice-text, .trainer-text {
+        display: inline; 
+        margin-right: 10px; 
+        margin-top: -8px;
+    }
+
+    #hero {
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        background-color: black;
+    }
+    
+    #hero img {
+        position: relative;
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    #hero h5 {
+        bottom: 22%;  
+    }
+
+    #hero .powerfull {
+        bottom: 80%;
+    }
+    #hero h1 {
+        bottom: 45%;
+        font-size: 48px;
+        font-weight: 700;
+
+    }
+ 
+    #hero h1.hero-three {
+        margin-top: 8%;
+        padding-right: 2%;
+        margin-bottom: 20%;
+        font-size: 36px;
+    }
+    
+    #hero h5.hero-text {
+        margin-bottom: 2%;
+        font-size: 14px;
+    }
+      
+}
+
+
+
+@media (max-width: 420px) and (max-height: 800px) { 
+   
+    #hero-numbers .card {
+    
+        margin-bottom: 10px; 
+        padding-top: 10px; 
+        width: 100%;
+    }
+
+    #hero .hero-bottom {
+        flex-direction: column;
+        bottom: 2vh; /* Alt boşluk ayarı */
+    }
+    .group-text, .practice-text, .trainer-text {
+        display: inline; 
+        margin-right: 10px; 
+        margin-top: -8px;
+    }
+
+    #hero {
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        background-color: black;
+    }
+    
+    #hero img {
+        position: relative;
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    #hero h5 {
+        bottom: 22%;  
+    }
+
+    #hero .powerfull {
+        bottom: 80%;
+    }
+    #hero h1 {
+        bottom: 45%;
+        font-size: 48px;
+        font-weight: 700;
+
+    }
+ 
+    #hero h1.hero-three {
+        margin-top: 8%;
+        padding-right: 2%;
+        margin-bottom: 20%;
+        font-size: 36px;
+    }
+    
+    #hero h5.hero-text {
+        margin-bottom: 2%;
+        font-size: 14px;
+    }
+      
+}
+
+

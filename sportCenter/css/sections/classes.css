@@ -1,0 +1,53 @@
+
+.classes-content {
+    width: 100%;
+}
+.btn.btn-primary.class-btn {
+    border-radius: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(21, 76, 121);
+    border: none;
+    height: 40px;
+    width: 128px;
+}
+
+.btn.btn-primary.class-btn:hover  {
+    background-color: orange;
+}
+
+
+@media (max-width: 576px) {
+    .btn.btn-primary.class-btn {
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-left: 2%;
+    }
+    #classes-aricle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+    }
+    #classes-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .triangle-index {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .triangle-index img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+
+}
